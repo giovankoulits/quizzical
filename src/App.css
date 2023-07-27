@@ -1,0 +1,103 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #293264;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.App-header, .App-header-two{
+  flex-direction: column;
+  align-items: left;
+  width: 1200px;
+  padding: 3%;
+  border: 2px solid rgba(9, 5, 5, 0.3);
+  border-radius: 20px;
+}
+
+.App-header-two{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn{
+  background-color: white;
+}
+
+.btn{
+  border: 1px solid #c3caed65;
+  border-radius: 20px;
+  margin:20px;
+  padding: 8px;
+  font-size: 20px;
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #c3caed65;
+  cursor: pointer;
+  border: 1px solid #29326472;
+}
+
+h1{
+  color: #293264;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center; 
+}
+
+h2{
+  color: #293264;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 40px 0px 10px 0px;
+}
+
+h3{
+  font-weight: 300;
+  color: #4d5b9e;
+  font-size: 30px;
+  margin-top: 1px;
+  margin: 0px 0px 40px 0px;
+}
+
+.btn-div button {
+  padding: 24px 15px;
+  font-size: 24px;
+  background-color: #4d5b9e;
+  color: aliceblue;
+  width: 220px;
+  border-radius: 45px;
+  display: inline;
+  margin-top: 30px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+.btn-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-hover{
+  pointer-events: none;
+}
+
+/* QUESTION */
+
+.Answer {
+  border-bottom: 1px solid #2932643d;
+  padding-bottom: 30px;
+  display: inline-block;
+  width: 1200px;
+}
+
+
